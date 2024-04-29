@@ -12,15 +12,13 @@ This is our implementation for the paper:
 
 ## Example to run the codes.
 
-1. Decompress the dataset file `datasets.zip` into the current folder
-
-2. Run the following command to train LLMCRec with GPU 0:
+1. Run the following command to train LLMCRec with GPU 0:
 
     ```
     python main.py -g 0 -m LLMCRec -d MOOCCubeX-CS
     ```
 
-3. After training, you can check the log files in `./logs`
+2. After training, you can check the log files in `./logs`
 
 ## Parameter Tuning
 
