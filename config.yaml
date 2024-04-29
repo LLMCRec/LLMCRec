@@ -1,0 +1,19 @@
+MOOCCubeX-CS:
+  data_path: './datasets'
+  batch_size_train: 2048
+  batch_size_test: 2048
+  top_k: [ 10, 20, 40, 80 ]
+  neg_num: 1
+  aug_type: "ED"
+  course_grained_ratios: [ 0.2 ]
+  concept_grained_ratios: [ 0.2 ]
+  course_concept_ratios: [ 0.2 ]
+  dropout_interval: 1
+  embedding_sizes: [ 128 ]
+  layer_nums: [ 1 ]
+  lrs: [ 1.0e-3 ]
+  l2_regs: [ 1.0e-4 ]
+  c_lambdas: [ 0.04 ]
+  c_temps: [ 0.25 ]
+  epochs: 100
+  test_interval: 5
